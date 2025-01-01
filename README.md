@@ -3,6 +3,9 @@
 ## Overview
 The **NewsWeb** project is a web application that integrates news and blog data, with features like user authentication, data filtering, responsive design, payout calculation, export functionality, and a dashboard for analytics. It aims to provide a smooth experience for both admin and user interactions with articles/blogs and calculated payouts.
 
+### Deployed Link: ( https://sd-news-web.vercel.app/login )
+  
+
 ## Features
 ### 1. **User Authentication**
 - Secure login functionality using email-password authentication.
@@ -44,22 +47,17 @@ The **NewsWeb** project is a web application that integrates news and blog data,
 - Table listing authors, articles, and calculated payouts.
 - Inline editing for payout rates.
 
-### 10. **Export Options**
-- Export filtered or complete data in PDF/CSV/Google Sheets format.
 
-### 11. **Error Handling**
-- Graceful fallback for API failures, displaying appropriate error messages if the news API is unreachable.
-
-## Technologies Used
-- **Frontend Frameworks**: React.js, Next.js
-- **State Management**: Redux, Recoil, or Context API
-- **APIs**: Integration with third-party REST APIs for fetching news data
-- **UI/Design**: Tailwind CSS for responsive and mobile-first design
-- **Export Functionality**: PDF generation, CSV export, Google Sheets integration
 
 ## Installation
-
-1. Clone the repository
+(open two terminal... first for frontend and second for backend)
+Clone the repository
 ```bash
   git clone https://github.com/RaviSaini045/NewsWeb.git
   cd NewsWeb
+  npm install
+  npm start
+### 2nd terminal
+cd server
+npm i
+npm start  
